@@ -1,0 +1,47 @@
+# ~/.config/starship.toml
+
+# Prompt format and alignment
+format = """
+$directory\
+$python\
+$git_branch\
+$git_status\
+$cmd_duration\
+\n\
+$character\
+"""
+
+# Working directory
+[directory]
+format = '[$path ](#85A0FF)'
+truncation_length = 2
+truncation_symbol = '/'
+
+# Git
+[git_branch]
+format = '[git:\([$branch(:$remote_branch)](white)\)](#FC97FF)'
+[git_status]
+format = '[$all_status$ahead_behind ]($style)'
+modified = '[\[m\]](#FC97FF)'
+deleted = '[\[d\]](red)'
+untracked = '[\[u\]](white)'
+staged = '[\[s\]](green)'
+renamed = '[\[r\]](yellow)'
+diverged = ''
+conflicted = ''
+ahead = ''
+behind = ''
+
+# Langs
+[python]
+format = '[py:\([$virtualenv](white)\) ](#FFD343)'
+detect_extensions = ['!py']
+
+# Command duration (only shows if command took longer than 2 seconds)
+[cmd_duration]
+format = '[$duration](white)'
+
+# Prompt symbol
+[character]
+success_symbol = '[\$](white)'
+error_symbol = '[\$](red)'

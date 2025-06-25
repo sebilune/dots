@@ -1,0 +1,29 @@
+# ~/.zsh_aliases
+
+# -----------------------
+# Shorthand
+# -----------------------
+
+alias ls='eza'
+alias la='eza -la'
+alias ll='eza -l'
+
+alias vim='nvim'
+alias py='python'
+alias winx='explorer.exe'
+
+alias gs='git status --short'
+alias ga='git add'
+alias gc='git commit'
+alias gp='git push'
+alias gu='git pull'
+alias gl='git log'
+alias gb='git branch'
+alias gi='git init'
+alias gcl='git clone'
+
+# -----------------------
+# Custom
+# -----------------------
+
+alias update='sudo apt update && sudo apt upgrade && sudo apt autoremove'
