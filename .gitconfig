@@ -3,6 +3,7 @@
   name = Sebi
 
 [core]
+  editor = vim
   compression = 9
   whitespace = error
   preloadindex = true
