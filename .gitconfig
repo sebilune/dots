@@ -1,0 +1,18 @@
+[user]
+  email = sebilune@duck.com
+  name = Sebi
+
+[core]
+  compression = 9
+  whitespace = error
+  preloadindex = true
+
+[advice]
+  addEmptyPathspec = false
+
+[url "git@github.com:sebilune/"]
+  insteadOf = "sebi:"
+
+[url "git@github.com:"]
+  insteadOf = "gh:"
+
