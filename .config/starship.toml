@@ -35,7 +35,8 @@ behind = ''
 # Langs
 [python]
 format = '[py:\([$virtualenv](white)\) ](#FFD343)'
-detect_extensions = ['!py']
+detect_extensions = []
+detect_files = []
 
 # Command duration (only shows if command took longer than 2 seconds)
 [cmd_duration]
