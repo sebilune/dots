@@ -31,5 +31,15 @@ export EDITOR=vim
 # Homebrew
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
+# Prompt
+eval "$(starship init zsh)"
+
+# Bun
+export PATH="/home/sebi/.bun/bin:$PATH"
+
+# Zoxide
+eval "$(zoxide init zsh)"
+
 # rust
 . "$HOME/.cargo/env"
+
