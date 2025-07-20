@@ -1,4 +1,5 @@
 # ~/.zprofile
 
-# Greet
+# Greeting
 fastfetch
+
