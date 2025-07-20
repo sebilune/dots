@@ -28,6 +28,8 @@ export EDITOR=vim
 # Enviroment
 # -----------------------
 
+export PATH="$HOME/.local/bin:$PATH"
+
 # Homebrew
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
