@@ -32,4 +32,4 @@ alias gcl='git clone'
 # Custom
 # -----------------------
 
-alias update='sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt clean && brew update && brew upgrade && brew autoremove && brew cleanup && bun update -g && cargo install-update -a'
+alias update='sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt clean && brew update && brew upgrade && brew autoremove && brew cleanup && bun update -g'
